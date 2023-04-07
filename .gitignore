@@ -14,4 +14,5 @@ buildNumber.properties
 src/test
 src/main/resources
 pom.xml
+algorithm.iml
 
