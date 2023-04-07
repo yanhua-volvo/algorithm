@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="栈">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e5d69c75c7bef8eaa0b242ab42ebdef0e548b5e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3821d1fbb19d512c2063a39d560f48c9d70d4c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab2aa4f0c77ce399aa0ba35128a254de399df0b1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e09fdaf634453208c7ec9560b28786421780b7d0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="add ignore file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +145,7 @@
       <workItem from="1678842828309" duration="603000" />
       <workItem from="1680077509215" duration="5471000" />
       <workItem from="1680140265973" duration="7267000" />
-      <workItem from="1680769976768" duration="8828000" />
+      <workItem from="1680769976768" duration="9317000" />
     </task>
     <task id="LOCAL-00001" summary="求解数组中心">
       <created>1677506030122</created>
@@ -185,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680777428795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ignore file">
+      <created>1680831616109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680831616109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +204,8 @@
     <MESSAGE value="数组合并" />
     <MESSAGE value="链表实现lru缓存" />
     <MESSAGE value="栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈" />
+    <MESSAGE value="add ignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ignore file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
