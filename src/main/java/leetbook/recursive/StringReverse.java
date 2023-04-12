@@ -1,9 +1,11 @@
 package leetbook.recursive;
 
 /**
- * @author: yh_wang
- * @date: 2023-03-30 09:38
- **/
+ * 字符串反转
+ *
+ * @author yh_wang
+ * @date 2023-04-11
+ */
 public class StringReverse {
 
     public static void main(String[] args) {
@@ -13,6 +15,12 @@ public class StringReverse {
     }
 
 
+    /**
+     * 反向
+     *
+     * @param source 源
+     * @return {@link String}
+     */
     public static String reverse(String source) {
 
         int i = 0;
