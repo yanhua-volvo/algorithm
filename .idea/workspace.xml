@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="add ignore file" />
+    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="归并和快速排序">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetbook/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +35,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/opt/apache-maven-3.6.3/res" />
         <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="$USER_HOME$/opt/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -54,15 +59,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30537355" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="easydoc.javadoc.settings" />
   </component>
-  <component name="RunManager" selected="Application.ValidBrackets">
-    <configuration name="CenterIndexOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetbook.array.CenterIndexOfArray" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetbook.search.BinarySearch" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetbook.array.*" />
+          <option name="PATTERN" value="leetbook.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetbook.array.MergeArray" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetbook.sort.BubbleSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetbook.array.*" />
+          <option name="PATTERN" value="leetbook.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectAndInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetbook.array.SelectAndInsert" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetbook.sort.InsertSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetbook.array.*" />
+          <option name="PATTERN" value="leetbook.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetbook.recursive.StringReverse" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetbook.sort.MergeSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetbook.recursive.*" />
+          <option name="PATTERN" value="leetbook.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetbook.stack.ValidBrackets" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetbook.sort.QuickSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetbook.stack.*" />
+          <option name="PATTERN" value="leetbook.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidBrackets" />
-        <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.MergeArray" />
-        <item itemvalue="Application.SelectAndInsert" />
-        <item itemvalue="Application.CenterIndexOfArray" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +150,11 @@
       <workItem from="1678842828309" duration="603000" />
       <workItem from="1680077509215" duration="5471000" />
       <workItem from="1680140265973" duration="7267000" />
-      <workItem from="1680769976768" duration="9317000" />
+      <workItem from="1680769976768" duration="20782000" />
+      <workItem from="1681183376948" duration="609000" />
+      <workItem from="1681193583066" duration="18119000" />
+      <workItem from="1681291006852" duration="1206000" />
+      <workItem from="1681721955431" duration="2270000" />
     </task>
     <task id="LOCAL-00001" summary="求解数组中心">
       <created>1677506030122</created>
@@ -182,7 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680831616109</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme add">
+      <created>1680831960833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680831960833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="基于数组实现普通队列和循环队列">
+      <created>1680839844429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680839844429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="插入和冒泡排序">
+      <created>1681263179954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681263179954</updated>
+    </task>
+    <task id="LOCAL-00009" summary="归并和快速排序">
+      <created>1681283182262</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681283182262</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +242,11 @@
     <MESSAGE value="链表实现lru缓存" />
     <MESSAGE value="栈" />
     <MESSAGE value="add ignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ignore file" />
+    <MESSAGE value="readme add" />
+    <MESSAGE value="基于数组实现普通队列和循环队列" />
+    <MESSAGE value="插入和冒泡排序" />
+    <MESSAGE value="归并和快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并和快速排序" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
