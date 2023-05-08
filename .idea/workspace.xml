@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="二分查找">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetbook/search/MoreBS.java" afterDir="false" />
+    <list default="true" id="385c0540-856e-478c-9391-58c5951d50c5" name="Changes" comment="二分查找变种">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetbook/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetbook/tree/BTIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +157,12 @@
       <workItem from="1681193583066" duration="18119000" />
       <workItem from="1681291006852" duration="1206000" />
       <workItem from="1681721955431" duration="2336000" />
-      <workItem from="1682058909329" duration="4309000" />
+      <workItem from="1682058909329" duration="4919000" />
+      <workItem from="1682300035448" duration="376000" />
+      <workItem from="1683250192106" duration="940000" />
+      <workItem from="1683341264200" duration="650000" />
+      <workItem from="1683509014783" duration="9000" />
+      <workItem from="1683516992986" duration="4878000" />
     </task>
     <task id="LOCAL-00001" summary="求解数组中心">
       <created>1677506030122</created>
@@ -227,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681724285585</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="二分查找变种">
+      <created>1682063328315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682063328315</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +269,8 @@
     <MESSAGE value="插入和冒泡排序" />
     <MESSAGE value="归并和快速排序" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="二分查找变种" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找变种" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
